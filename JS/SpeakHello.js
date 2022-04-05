@@ -22,11 +22,11 @@
 
 
 (function(window) {
-	var sayWord = "Hello";
-	var helloSayer = function (name) {
-		console.log(sayWord + " " + name);
+	var speakWord = "Hello";
+	var helloSpeaker = function (name) {
+		console.log(speakWord + " " + name);
 	}
 
-	window.helloSayer = helloSayer;
+	window.helloSpeaker = helloSpeaker;
 
 })(window);
