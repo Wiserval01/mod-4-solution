@@ -24,11 +24,11 @@
 
 
 (function(window) {
-	var sayWord = "Good Bye";
-	var byeSayer = function (name) {
-  		console.log(sayWord + " " + name);
+	var speakWord = "Good Bye";
+	var byeSpeaker = function (name) {
+  		console.log(speakWord + " " + name);
 	}
 	
-	window.byeSayer = byeSayer;
+	window.byeSpeaker = byeSpeaker;
 
 })(window);
